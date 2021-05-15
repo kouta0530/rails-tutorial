@@ -13,12 +13,13 @@ class UserTest < ActiveSupport::TestCase
   end
   
   test "name should be present" do
-    @user.name= "    "
+    @user.name= "a" * 51
     assert_not @user.valid?
   end
   
   test "email should be presend" do
-    @user.email = "    "
+    @user.email = "a" * 244 + "@example.com"
     assert_not @user.valid?
   end
+  
 end
