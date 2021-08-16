@@ -47,7 +47,11 @@ GEM
 =======
     autoprefixer-rails (10.2.5.0)
       execjs (< 2.8.0)
+<<<<<<< HEAD
 >>>>>>> 8794e84e1b6cf97bcbbb7d29fcb015a7b4e6e09b
+=======
+    bcrypt (3.1.12)
+>>>>>>> 3c7aaf1c438ba86979bd9a7f24fe95a48b63f698
     bindex (0.8.1)
     bootstrap-sass (3.3.7)
       autoprefixer-rails (>= 5.2.1)
@@ -225,6 +229,9 @@ PLATFORMS
 
 DEPENDENCIES
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3c7aaf1c438ba86979bd9a7f24fe95a48b63f698
   bcrypt (= 3.1.12)
   bootstrap-sass (= 3.3.7)
   bootstrap-will_paginate (= 1.0.0)
