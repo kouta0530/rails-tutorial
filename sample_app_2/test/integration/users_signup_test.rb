@@ -14,5 +14,6 @@ class UsersSignupTest < ActionDispatch::IntegrationTest
     end
     assert_template 'users/new'
     assert_select 'li', 'Email is invalid'
+    assert_select 'li', "Password confirmation doesn't match Password"
   end
 end
