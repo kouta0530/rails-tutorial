@@ -10,17 +10,14 @@
   <body>
     <%= render 'layouts/header' %>
     <div class="container">
-<<<<<<< HEAD
       <% flash.each do |message_type, message| %>
         <div class="alert alert-<%= message_type %>"><%= message %></div>
       <% end %>
       <%= yield %>
       <%= render 'layouts/footer' %>
       <%= debug(params) if Rails.env.development? %>
-=======
       <%= yield %>
       <%= render 'layouts/footer' %>
->>>>>>> 8794e84e1b6cf97bcbbb7d29fcb015a7b4e6e09b
     </div>
   </body>
 </html>
